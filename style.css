@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+}
+
+/********TITELSKÆRM********/
+#menu_background {
+    background-image: url(img/titelsk%C3%A6rm.svg);
+    background-size: 100%;
+    width: 100vw;
+    height: 56.25vw;
+    position: relative;
+    display: none;
+
+
+}
+
+
+
+/********TITELSKÆRM Slut********/
+
+/********SPIL BAGGRUND********/
+#game_background {
+    background-image: url(img/spilbaggrund.svg);
+    background-size: 100%;
+    width: 100vw;
+    height: 56.25vw;
+    position: relative;
+
+
+}
+
+/********SPIL BAGGRUND SLUT********/
+
+/********SPIL FIGURER********/
+
+#godgris1 {
+    background-image: url(img/godkarakter--.svg);
+    background-size: 100%;
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    top: 39.6vw;
+    left: 13.8vw;
+
+}
+
+#godgris2 {
+    background-image: url(img/godkarakter--.svg);
+    background-size: 100%;
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    top: 38.8vw;
+    left: 80vw;
+}
+
+#godgris3 {
+    background-image: url(img/godkarakter--.svg);
+    background-size: 100%;
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    top: 36.5vw;
+    left: 28.4vw;
+}
+
+#godgris4 {
+    background-image: url(img/godkarakter--.svg);
+    background-size: 100%;
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    top: 37.8vw;
+    left: 53.5vw;
+
+}
+
+#godgris5 {
+    background-image: url(img/godkarakter--.svg);
+    background-size: 100%;
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    top: 21.3vw;
+    left: 65.3vw;
+}
+
+#ondgris1 {
+    background-image: url(img/ondkarakter.svg);
+    background-size: 100%;
+    width: 3.5vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 36.3vw;
+    left: 65.8vw;
+}
+
+#ondgris2 {
+    background-image: url(img/ondkarakter.svg);
+    background-size: 100%;
+    width: 3.5vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 38.8vw;
+    left: 74.8vw;
+}
+
+#ondgris3 {
+    background-image: url(img/ondkarakter.svg);
+    background-size: 100%;
+    width: 3.5vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 38vw;
+    left: 41vw;
+}
+
+#ondgris4 {
+    background-image: url(img/ondkarakter.svg);
+    background-size: 100%;
+    width: 3.5vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 21.3vw;
+    left: 28.7vw;
+}
+
+#ondgris5 {
+    background-image: url(img/ondkarakter.svg);
+    background-size: 100%;
+    width: 3.5vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 39.4vw;
+    left: 19.6vw;
+}
+
+#vindue1 {
+    background-image: url(img/vindue.svg);
+    background-size: 100%;
+    width: 3.6vw;
+    height: 7.2vw;
+    position: absolute;
+    top: 35.3vw;
+    left: 19.5vw;
+    opacity: 0.5;
+}
+
+#vindue2 {
+    background-image: url(img/vindue.svg);
+    background-size: 100%;
+    width: 3.6vw;
+    height: 7.2vw;
+    position: absolute;
+    top: 35.6vw;
+    left: 14.0vw;
+    opacity: 0.5;
+}
+
+#vindue3 {
+    background-image: url(img/vindue.svg);
+    background-size: 100%;
+    width: 3.6vw;
+    height: 7.2vw;
+    position: absolute;
+    top: 32.6vw;
+    left: 28.6vw;
+    opacity: 0.5;
+
+}
+
+#vindue4 {
+    background-image: url(img/vindue.svg);
+    background-size: 100%;
+    width: 3.6vw;
+    height: 7.2vw;
+    position: absolute;
+    top: 17.3vw;
+    left: 28.6vw;
+    opacity: 0.5;
+
+}
+
+#vindue5 {
+    background-image: url(img/vindue.svg);
+    background-size: 100%;
+    width: 3.6vw;
+    height: 7.2vw;
+    position: absolute;
+    top: 32.3vw;
+    left: 65.7vw;
+    opacity: 0.5;
+
+}
+
+#vindue6 {
+    background-image: url(img/vindue.svg);
+    background-size: 100%;
+    width: 3.6vw;
+    height: 7.2vw;
+    position: absolute;
+    top: 17.3vw;
+    left: 65.5vw;
+    opacity: 0.5;
+
+}
+
+#vindue7 {
+    background-image: url(img/vindue.svg);
+    background-size: 100%;
+    width: 3.6vw;
+    height: 7.2vw;
+    position: absolute;
+    top: 34.8vw;
+    left: 74.8vw;
+    opacity: 0.5;
+
+}
+
+#vindue8 {
+    background-image: url(img/vindue.svg);
+    background-size: 100%;
+    width: 3.6vw;
+    height: 7.2vw;
+    position: absolute;
+    top: 34.8vw;
+    left: 80.2vw;
+    opacity: 0.5;
+
+}
+
+#vindue9 {
+    background-image: url(img/vindue.svg);
+    background-size: 100%;
+    width: 3.6vw;
+    height: 7.2vw;
+    position: absolute;
+    top: 33.8vw;
+    left: 53.7vw;
+    opacity: 0.5;
+
+}
+
+#vindue10 {
+    background-image: url(img/vindue.svg);
+    background-size: 100%;
+    width: 3.6vw;
+    height: 7.2vw;
+    position: absolute;
+    top: 34vw;
+    left: 41vw;
+    opacity: 0.5;
+
+}
+
+#play {
+    background-image: url(img/playknap.svg);
+    background-size: 100%;
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    top: 12vw;
+    left: 47vw;
+    display: none;
+}
+
+#setting {
+    background-image: url(img/Artboard%201.svg);
+    background-size: 100%;
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    top: 0.5vw;
+    left: 95.5vw;
+    display: none;
+}
+
+#close {
+    background-image: url(img/close.svg);
+    background-size: 100%;
+    width: 2vw;
+    height: 2.3vw;
+    position: absolute;
+    top: 3.5vw;
+    left: 56vw;
+    display: none;
+}
+
+/********SPIL FIGURER SLUT********/
+
+/********SPIL ELEMENTER INGAME********/
+
+#point {
+    background-image: url(img/pointtavle.svg);
+    background-size: 100%;
+    width: 5vw;
+    height: 17vw;
+    position: absolute;
+    top: 38vw;
+    left: 93.7vw;
+}
+
+#point2 {
+    background-image: url(img/pointgris.svg);
+    background-size: 100%;
+    width: 4.1vw;
+    height: 3.1vw;
+    position: absolute;
+    top: 51.2vw;
+    left: 94vw;
+}
+
+#point3 {
+    background-image: url(img/pointgris.svg);
+    background-size: 100%;
+    width: 4.1vw;
+    height: 3.1vw;
+    position: absolute;
+    top: 48.2vw;
+    left: 94vw;
+}
+
+#point4 {
+    background-image: url(img/pointgris.svg);
+    background-size: 100%;
+    width: 4.1vw;
+    height: 3.1vw;
+    position: absolute;
+    top: 45.2vw;
+    left: 94vw;
+}
+
+#energy {
+    background-image: url(img/liv.svg);
+    background-size: 100%;
+    width: 6vw;
+    height: 3.2vw;
+    position: absolute;
+    top: 0.3vw;
+    left: 0.3vw;
+}
+
+#time {
+    background-image: url(img/tid.svg);
+    background-size: 100%;
+    width: 6vw;
+    height: 3.2vw;
+    position: absolute;
+    top: 0.3vw;
+    left: 93.7vw;
+}
+
+#start {
+    background-image: url(img/howtoplay.svg);
+    background-size: 100%;
+    width: 20vw;
+    height: 10.4vw;
+    position: absolute;
+    top: 10vw;
+    left: 39.1vw;
+    display: none;
+}
+
+#gameover {
+    background-image: url(img/gameover.svg);
+    background-size: 100%;
+    width: 20vw;
+    height: 10.4vw;
+    position: absolute;
+    top: 10vw;
+    left: 39.1vw;
+    display: none;
+
+}
+
+#levelcomplete {
+    background-image: url(img/levelcomplete.svg);
+    background-size: 100%;
+    width: 20vw;
+    height: 10.4vw;
+    position: absolute;
+    top: 10vw;
+    left: 39.1vw;
+    display: none;
+}
+
+#retry {
+    background-image: url(img/retryknap.svg);
+    background-size: 100%;
+    width: 6vw;
+    height: 2.7vw;
+    position: absolute;
+    top: 17vw;
+    left: 46vw;
+    display: none;
+
+}
+
+/********SPIL ELEMENTER TITLE********/
+#settings {
+    background-image: url(img/soundfx.svg);
+    background-size: 100%;
+    width: 20vw;
+    height: 10.4vw;
+    position: absolute;
+    top: 3vw;
+    left: 39vw;
+    display: none;
+}
+
+
+
+
+
+
+
+/********SPIL ELEMENTER SLUT********/
