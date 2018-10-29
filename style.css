@@ -1,5 +1,6 @@
 * {
     margin: 0;
+
 }
 
 /********TITELSKÆRM********/
@@ -10,8 +11,22 @@
     height: 56.25vw;
     position: relative;
     display: none;
+    animation-name: fade_out_kf;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: 1;
 
 
+}
+
+@keyframes fade_out_kf {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 
@@ -143,7 +158,7 @@
     position: absolute;
     top: 35.3vw;
     left: 19.5vw;
-    opacity: 0.5;
+
 }
 
 #vindue2 {
@@ -154,7 +169,7 @@
     position: absolute;
     top: 35.6vw;
     left: 14.0vw;
-    opacity: 0.5;
+
 }
 
 #vindue3 {
@@ -165,7 +180,7 @@
     position: absolute;
     top: 32.6vw;
     left: 28.6vw;
-    opacity: 0.5;
+
 
 }
 
@@ -177,7 +192,7 @@
     position: absolute;
     top: 17.3vw;
     left: 28.6vw;
-    opacity: 0.5;
+
 
 }
 
@@ -189,7 +204,7 @@
     position: absolute;
     top: 32.3vw;
     left: 65.7vw;
-    opacity: 0.5;
+
 
 }
 
@@ -201,7 +216,7 @@
     position: absolute;
     top: 17.3vw;
     left: 65.5vw;
-    opacity: 0.5;
+
 
 }
 
@@ -213,7 +228,7 @@
     position: absolute;
     top: 34.8vw;
     left: 74.8vw;
-    opacity: 0.5;
+
 
 }
 
@@ -225,7 +240,7 @@
     position: absolute;
     top: 34.8vw;
     left: 80.2vw;
-    opacity: 0.5;
+
 
 }
 
@@ -237,7 +252,7 @@
     position: absolute;
     top: 33.8vw;
     left: 53.7vw;
-    opacity: 0.5;
+
 
 }
 
@@ -249,8 +264,25 @@
     position: absolute;
     top: 34vw;
     left: 41vw;
-    opacity: 0.5;
 
+
+}
+
+.vindue {
+    animation-name: fade_in_kf;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes fade_in_kf {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 #play {
@@ -285,6 +317,7 @@
     left: 56vw;
     display: none;
 }
+
 
 /********SPIL FIGURER SLUT********/
 
