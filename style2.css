@@ -8,9 +8,10 @@
     overflow: hidden;
     width: 100vw;
     height: 56.25vw;
-    position:relative;
+    position: relative;
 
 }
+
 /*************OVERORDNEDE INDSTILLINGER SLUT********************/
 
 
@@ -26,6 +27,7 @@
 
 
 }
+
 #play {
     background-image: url(img/playknap.svg);
     background-size: 100%;
@@ -35,8 +37,10 @@
     top: 12vw;
     left: 47vw;
     z-index: 101;
+    cursor: pointer;
 
 }
+
 #settings {
     background-image: url(img/soundfx.svg);
     background-size: 100%;
@@ -47,6 +51,7 @@
     left: 39vw;
     display: none;
 }
+
 #gris {
     background-image: url(img/godkarakter--.svg);
     background-size: 100%;
@@ -80,6 +85,7 @@
         transform: scale (1.0)
     }
 }
+
 /*************TITELSKÆRM SLUT********************/
 #game_background {
     background-image: url(img/spilbaggrund.svg);
@@ -101,8 +107,8 @@
 
 /********SPIL FIGURER********/
 
-#godgris1 {
-    background-image: url(img/godkarakter--.svg);
+#gris1 {
+
     background-size: 100%;
     width: 4vw;
     height: 4vw;
@@ -110,12 +116,13 @@
     top: 39.6vw;
     left: 13.8vw;
     z-index: 90;
+    cursor: pointer;
 
 
 }
 
-#godgris2 {
-    background-image: url(img/godkarakter--.svg);
+#gris2 {
+
     background-size: 100%;
     width: 4vw;
     height: 4vw;
@@ -123,10 +130,19 @@
     top: 38.8vw;
     left: 80vw;
     z-index: 90;
+    cursor: pointer;
 }
 
-#godgris3 {
+.godgris {
     background-image: url(img/godkarakter--.svg);
+}
+
+.ondgris {
+    background-image: url(img/ondkarakter.svg);
+}
+
+#gris3 {
+
     background-size: 100%;
     width: 4vw;
     height: 4vw;
@@ -134,10 +150,11 @@
     top: 36.5vw;
     left: 28.4vw;
     z-index: 90;
+    cursor: pointer;
 }
 
-#godgris4 {
-    background-image: url(img/godkarakter--.svg);
+#gris4 {
+
     background-size: 100%;
     width: 4vw;
     height: 4vw;
@@ -145,11 +162,12 @@
     top: 37.8vw;
     left: 53.5vw;
     z-index: 90;
+    cursor: pointer;
 
 }
 
-#godgris5 {
-    background-image: url(img/godkarakter--.svg);
+#gris5 {
+
     background-size: 100%;
     width: 4vw;
     height: 4vw;
@@ -157,10 +175,10 @@
     top: 21.3vw;
     left: 65.3vw;
     z-index: 90;
+    cursor: pointer;
 }
 
-#ondgris1 {
-    background-image: url(img/ondkarakter.svg);
+#gris6 {
     background-size: 100%;
     width: 3.5vw;
     height: 3.5vw;
@@ -168,10 +186,10 @@
     top: 36.3vw;
     left: 65.8vw;
     z-index: 90;
+    cursor: pointer;
 }
 
-#ondgris2 {
-    background-image: url(img/ondkarakter.svg);
+#gris7 {
     background-size: 100%;
     width: 3.5vw;
     height: 3.5vw;
@@ -179,10 +197,10 @@
     top: 38.8vw;
     left: 74.8vw;
     z-index: 90;
+    cursor: pointer;
 }
 
-#ondgris3 {
-    background-image: url(img/ondkarakter.svg);
+#gris8 {
     background-size: 100%;
     width: 3.5vw;
     height: 3.5vw;
@@ -192,8 +210,7 @@
     z-index: 90;
 }
 
-#ondgris4 {
-    background-image: url(img/ondkarakter.svg);
+#gris9 {
     background-size: 100%;
     width: 3.5vw;
     height: 3.5vw;
@@ -201,10 +218,11 @@
     top: 21.3vw;
     left: 28.7vw;
     z-index: 90;
+    cursor: pointer;
 }
 
-#ondgris5 {
-    background-image: url(img/ondkarakter.svg);
+#gris10 {
+
     background-size: 100%;
     width: 3.5vw;
     height: 3.5vw;
@@ -212,22 +230,26 @@
     top: 39.4vw;
     left: 19.6vw;
     z-index: 90;
+    cursor: pointer;
+}
+
+.vindue {
+    background-image: url(img/vindue.svg);
 }
 
 #vindue1 {
-    background-image: url(img/vindue.svg);
     background-size: 100%;
     width: 3.6vw;
     height: 7.2vw;
     position: absolute;
     top: 35.3vw;
     left: 19.5vw;
-    z-index: 95;
+    z-index: 99;
+    pointer-events: none;
 
 }
 
 #vindue2 {
-    background-image: url(img/vindue.svg);
     background-size: 100%;
     width: 3.6vw;
     height: 7.2vw;
@@ -235,11 +257,10 @@
     top: 35.6vw;
     left: 14.0vw;
     z-index: 95;
-
+    pointer-events: none;
 }
 
 #vindue3 {
-    background-image: url(img/vindue.svg);
     background-size: 100%;
     width: 3.6vw;
     height: 7.2vw;
@@ -247,12 +268,12 @@
     top: 32.6vw;
     left: 28.6vw;
     z-index: 95;
+    pointer-events: none;
 
 
 }
 
 #vindue4 {
-    background-image: url(img/vindue.svg);
     background-size: 100%;
     width: 3.6vw;
     height: 7.2vw;
@@ -260,12 +281,12 @@
     top: 17.3vw;
     left: 28.6vw;
     z-index: 95;
+    pointer-events: none;
 
 
 }
 
 #vindue5 {
-    background-image: url(img/vindue.svg);
     background-size: 100%;
     width: 3.6vw;
     height: 7.2vw;
@@ -273,12 +294,12 @@
     top: 32.3vw;
     left: 65.7vw;
     z-index: 95;
+    pointer-events: none;
 
 
 }
 
 #vindue6 {
-    background-image: url(img/vindue.svg);
     background-size: 100%;
     width: 3.6vw;
     height: 7.2vw;
@@ -286,12 +307,12 @@
     top: 17.3vw;
     left: 65.5vw;
     z-index: 95;
+    pointer-events: none;
 
 
 }
 
 #vindue7 {
-    background-image: url(img/vindue.svg);
     background-size: 100%;
     width: 3.6vw;
     height: 7.2vw;
@@ -299,12 +320,12 @@
     top: 34.8vw;
     left: 74.8vw;
     z-index: 95;
+    pointer-events: none;
 
 
 }
 
 #vindue8 {
-    background-image: url(img/vindue.svg);
     background-size: 100%;
     width: 3.6vw;
     height: 7.2vw;
@@ -312,12 +333,12 @@
     top: 34.8vw;
     left: 80.2vw;
     z-index: 95;
+    pointer-events: none;
 
 
 }
 
 #vindue9 {
-    background-image: url(img/vindue.svg);
     background-size: 100%;
     width: 3.6vw;
     height: 7.2vw;
@@ -325,12 +346,12 @@
     top: 33.8vw;
     left: 53.7vw;
     z-index: 95;
+    pointer-events: none;
 
 
 }
 
 #vindue10 {
-    background-image: url(img/vindue.svg);
     background-size: 100%;
     width: 3.6vw;
     height: 7.2vw;
@@ -338,11 +359,12 @@
     top: 34vw;
     left: 41vw;
     z-index: 95;
+    pointer-events: none;
 
 
 }
 
-.vinduer {
+.vindue {
     animation-name: fade_in_kf;
     animation-duration: 10s;
     animation-fill-mode: forwards;
@@ -359,11 +381,184 @@
     }
 }
 
+/*************SPIL UI START********************/
+#pointtavle {
+    background-image: url(img/pointtavle.svg);
+    background-size: 100%;
+    width: 5vw;
+    height: 17vw;
+    position: absolute;
+    top: 38vw;
+    left: 93.7vw;
+    z-index: 95;
+}
+
+#point1 {
+
+    background-size: 100%;
+    width: 4.1vw;
+    height: 3.1vw;
+    position: absolute;
+    top: 51.2vw;
+    left: 94vw;
+    z-index: 96;
+}
+
+#point2 {
+
+    background-size: 100%;
+    width: 4.1vw;
+    height: 3.1vw;
+    position: absolute;
+    top: 48.2vw;
+    left: 94vw;
+    z-index: 96;
+}
+
+#point3 {
+    background-size: 100%;
+    width: 4.1vw;
+    height: 3.1vw;
+    position: absolute;
+    top: 45.2vw;
+    left: 94vw;
+    z-index: 96;
+}
+
+#point4 {
+    background-size: 100%;
+    width: 4.1vw;
+    height: 3.1vw;
+    position: absolute;
+    top: 42.1vw;
+    left: 94.1vw;
+    z-index: 96;
+}
+
+#point5 {
+    background-size: 100%;
+    width: 4.1vw;
+    height: 3.1vw;
+    position: absolute;
+    top: 39.2vw;
+    left: 94.1vw;
+    z-index: 96;
+}
+
+.point {
+    background-image: url(img/pointgris.svg);
+}
+
+#energy {
+    background-image: url(img/energy.svg);
+    background-size: 100%;
+    width: 6vw;
+    height: 3.2vw;
+    position: absolute;
+    top: 0.3vw;
+    left: 0.3vw;
+    z-index: 95;
+}
+
+.liv {
+    background-image: url(img/liv.svg);
+}
+
+#liv1 {
+    background-size: 100%;
+    width: 2.5vw;
+    height: 2.2vw;
+    position: absolute;
+    top: 0.5vw;
+    left: 0.5vw;
+    z-index: 95;
+
+}
+
+#liv2 {
+    background-size: 100%;
+    width: 2.5vw;
+    height: 2.2vw;
+    position: absolute;
+    top: 0.5vw;
+    left: 3vw;
+    z-index: 95;
+
+}
+
+#time {
+    background-image: url(img/tid.svg);
+    background-size: 100%;
+    width: 6vw;
+    height: 3.2vw;
+    position: absolute;
+    top: 0.3vw;
+    left: 93.7vw;
+    z-index: 95;
+}
+
+#howtoplay {
+    background-image: url(img/howtoplay.svg);
+    background-size: 100%;
+    width: 20vw;
+    height: 10.4vw;
+    position: absolute;
+    top: 10vw;
+    left: 39.1vw;
+    display: none;
+}
+
+#gameover {
+    background-image: url(img/gameover.svg);
+    background-size: 100%;
+    width: 20vw;
+    height: 10.4vw;
+    position: absolute;
+    top: 10vw;
+    left: 39.1vw;
+    display: none;
+
+}
+
+#levelcomplete {
+    background-image: url(img/levelcomplete.svg);
+    background-size: 100%;
+    width: 20vw;
+    height: 10.4vw;
+    position: absolute;
+    top: 10vw;
+    left: 39.1vw;
+    display: none;
+}
+
+#retry {
+    background-image: url(img/retryknap.svg);
+    background-size: 100%;
+    width: 6vw;
+    height: 2.7vw;
+    position: absolute;
+    top: 17vw;
+    left: 46vw;
+    display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*************SPIL UI SLUT********************/
 /*************EFFEKTER START********************/
 
 .hide {
-    visibility:hidden;
+    visibility: hidden;
 }
+
 .show {
     visibility: show;
 }
@@ -374,6 +569,7 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
+
 @keyframes fadeout_kf {
     0% {
         opacity 1;
@@ -391,13 +587,31 @@
     animation-direction: alternate;
     animation-timing-function: ease-in;
 }
+
 @keyframes pulse_kf {
     0% {
         transform: scale(0.97);
     }
+
     100% {
         transform: scale(1.2);
     }
 }
 
+.fade_in {
+    animation-name: fade_in;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
 
+@keyframes fade_in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
