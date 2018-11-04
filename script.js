@@ -27,6 +27,8 @@ function hideStart() {
 
 function startGame() {
     console.log("startgame");
+    document.querySelector("#levelcomplete").classList.add("hide");
+    document.querySelector("#gameover").classList.add("hide");
     document.querySelector("#game_elements").classList.add("show");
     document.querySelector("#vindue1").classList.add("fade_in");
     document.querySelector("#vindue2").classList.add("fade_in");
@@ -69,7 +71,10 @@ function clickGris() {
     console.log(heart);
     document.querySelector(heart).classList.remove("hide");
     point--
-    // også TODO: Få det til at virke så mønten starter forfra - det må vente
+    console.log(this);
+    this.classList.add("hide");
+    gameStatus();
+
 
 }
 
@@ -90,5 +95,33 @@ function clickOnd() {
     document.querySelector(liv).classList.add("hide")
     energy--
 
-    // også TODO: Få eksplosionen til at virke igen - det må også vente
+    console.log(this);
+    this.classList.add("hide");
+    gameStatus();
+}
+
+function gameStatus() {
+    if (energy == 0) {
+        gameOver();
+    }
+    if (point == 0) {
+        levelComplete();
+    }
+
+}
+
+
+
+function gameOver() {
+    console.log("game over");
+
+    document.querySelector("#gameover").classList.remove("hide");
+    document.querySelector("#gameover").classList.add("show");
+
+}
+
+function levelComplete() {
+    console.log("level complete");
+    document.querySelector("#levelcomplete").classList.remove("hide");
+    document.querySelector("#levelcomplete").classList.remove("show");
 }

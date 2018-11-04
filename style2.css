@@ -516,8 +516,7 @@
     position: absolute;
     top: 10vw;
     left: 39.1vw;
-    display: none;
-
+    z-index: 85;
 }
 
 #levelcomplete {
@@ -528,7 +527,8 @@
     position: absolute;
     top: 10vw;
     left: 39.1vw;
-    display: none;
+    z-index: 85;
+
 }
 
 #retry {
@@ -600,7 +600,7 @@
 
 .fade_in {
     animation-name: fade_in;
-    animation-duration: 10s;
+    animation-duration: 6s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
